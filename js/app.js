@@ -18,7 +18,7 @@ function getNewTime() {
     const secs = Math.floor(totalTime / 1000);
 
     console.log(`${days}day ${hours}hours ${mins}mins ${secs}secs`);
-    timeText.innerHTML = `距離2020年7月1日 還有${days}天${hours}時${mins}分${secs}秒`
+    timeText.innerHTML = `距離2021年7月1日 還有${days}天${hours}時${mins}分${secs}秒`
 }
 
 setInterval(getNewTime, 500);
